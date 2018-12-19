@@ -1,0 +1,63 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/calc/calc",
+    "pages/book/book",
+    "pages/book/detail",
+    "pages/testYw/index",
+    "pages/history/history",
+    "pages/logs/logs",
+    "pages/testShop/start/start",
+    "pages/testShop/index/index",
+    "pages/testShop/goods-details/index",
+    "pages/testShop/shop-cart/index",
+    "pages/testShop/to-pay-order/index",
+    "pages/testShop/select-address/index",
+    "pages/testShop/address-add/index",
+    "pages/testShop/order-list/index",
+    "pages/testShop/order-details/index",
+    "pages/testShop/wuliu/index",
+    "pages/testShop/mycoupons/index",
+    "pages/testShop/my/index",
+    "pages/testShop/notice/show",
+    "pages/testShop/recharge/index",
+    "pages/testShop/withdraw/index",
+    "pages/testShop/kanjia/index",
+    "pages/testShop/authorize/index",
+    "pages/testShop/score-excharge/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "小程序集合dome",
+    "navigationBarTextStyle": "black",
+    "onReachBottomDistance": 50
+  },
+  "tabBar": {
+    "color": "#6e6d6b",
+    "selectedColor": "#e64340",
+    "borderStyle": "white",
+    "backgroundColor": "#fff",
+    "box-shadow": "0 0 6px 0",
+    "list": [
+      {
+        "pagePath": "pages/testShop/index/index",
+        "iconPath": "images/nav/home-off.png",
+        "selectedIconPath": "images/nav/home-on.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/testShop/shop-cart/index",
+        "iconPath": "images/nav/cart-off.png",
+        "selectedIconPath": "images/nav/cart-on.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/testShop/my/index",
+        "iconPath": "images/nav/my-off.png",
+        "selectedIconPath": "images/nav/my-on.png",
+        "text": "我的"
+      }
+    ]
+  }
+}

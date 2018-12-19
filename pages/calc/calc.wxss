@@ -1,0 +1,67 @@
+.content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    font-family: "Microsoft YaHei";
+    overflow-x: hidden;
+}
+.layout-top{
+    width: 100%;
+    margin-bottom: 30rpx;
+}
+.layout-bottom{
+    width: 100%;
+}
+.screen {
+    text-align: right;
+    width: 100%;
+    line-height: 260rpx;
+    padding: 0 10rpx;
+    font-weight: bold;
+    font-size: 60px;
+    box-sizing: border-box;
+    border-top: 1px solid #DEDEDE;
+}
+.btnGroup {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    width: 100%;
+    height: 5rem;
+    background-color: #fff;
+}
+.item {
+    width:25%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1px;
+    margin-right: 1px;
+}
+.item:active {
+    background-color: #DEDEDE;
+}
+.zero{
+    width: 50%;
+}
+.orange {
+    color: #0095cd;
+    background: #EBEBEB;
+    font-weight: bold;
+}
+.blue {
+    color:#555;
+    background-color: #f5f5f5;
+}
+.iconBtn{
+    display: flex;
+}
+.icon{
+   display: flex;
+   align-items: center;
+   width:100%;
+   justify-content: center;
+}
